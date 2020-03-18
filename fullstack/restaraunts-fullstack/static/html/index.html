@@ -9,26 +9,22 @@
 <h1>
  This is a beautiful website made with flask. 
 </h1>
-<p>
-  Our JavaScript file is called getData. There are two functions defined there. 
-  
-  By clicking the button below which says <em>Add Title</em>you, you will execute  
-  a JavaScript function called addTitle(). 
-<p>
-
-<p>
-Try this magical button now: 
+Try this magical button now to add a statically define title, usign JavaScript.
 <button onclick="addTitle()">Add Title</button>
 </p>
 
 <p>
 
-Ok, this is a bit of a "hello, world" setup. Next up is to actually get data from our API and list those restaurants. 
+Next up is to actually get data from our API and list those restaurants. 
 You should already be able to navigate to a new URI in the browser and see something that looks like a list or an array. 
-If you haven't already, go to <a href="/api/restaurants/all">/api/restaurants/all</a> in your browser. 
-It should display the data from app.py, in a machine-readable format. This format is called JSON, or JavaScript Object Notation. 
-
+If you haven't already, go to <a href="/api/restaurants/names">/api/restaurants/names</a> in your browser. 
+It should display the names of restaurants, in a machine-readable format. This format is called JSON, or JavaScript Object Notation. 
 </p>
+
+<p>
+When you go to this URI, the backend executes a database query using SQL. That data is then read by your Python backend, and the list of restaurants is passed forward via API to the frontend. 
+</p>
+
 
 <p>
 Next, we want to actually get and display our restaurants data. There is a JavaScript function called getAllRestaurantNames() which does exactly this. 
