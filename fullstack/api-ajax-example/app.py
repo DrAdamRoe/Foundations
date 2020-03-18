@@ -15,11 +15,11 @@ def index():
 restaurants = [
     {'id': 0,
     'name':'Sotto',
-    'neighobrhood':'Wedding'
+    'neighborhood':'Wedding'
     }, 
     {'id': 1,
     'name':'Curry 36',
-    'neighobrhood':'Kreuzberg'
+    'neighborhood':'Kreuzberg'
     }
 ]
 
